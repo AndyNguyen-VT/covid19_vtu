@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Sofia";
+    src: url("Sofia.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("RobotoCondensed-Regular.ttf");
+}
+
+@font-face {
+    font-family: "RobotoLight";
+    src: url("RobotoCondensed-Light.ttf");
+}
