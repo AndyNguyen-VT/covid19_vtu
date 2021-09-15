@@ -1,4 +1,4 @@
-@import url('font.css');
+@import url('../cov19vt/font.css');
 
 :root{
     --red:#FF4F5B;
@@ -39,6 +39,7 @@ html::-webkit-scrollbar-thumb{
 body{
     background:#f9f9f9;
 }
+
 
 section{
     min-height: 100vh;
@@ -561,12 +562,17 @@ table {
     font-size: 17px;
   }
   
-  td, th {
+  td {
     border: 2px solid #dddddd;
     text-align: center;
     padding: 10px;
   }
-  
+  th{
+    border: 2px solid #dddddd;
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+  }
   tr:nth-child(even) {
     background-color: #dddddd;
   }
