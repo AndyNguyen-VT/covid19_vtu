@@ -563,10 +563,9 @@ table {
     font-size: 17px;
   }
   
-  td, th {
+    td, th {
     border: 2px solid #dddddd;
     text-align: center;
-    font-family: Sofia;
     padding: 10px;
   }
   
