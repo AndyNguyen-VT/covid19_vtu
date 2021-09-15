@@ -569,7 +569,7 @@ table {
   }
   th{
     border: 2px solid #dddddd;
-    background-color: red;
+    background-color: rgb(255, 0, 0);
     text-align: center;
     padding: 10px;
   }
