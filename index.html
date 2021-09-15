@@ -10,17 +10,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../cov19vt/style.css">
+    <link rel="stylesheet" href="../cov19vt/script.js">
     <link rel="shortcut icon" href="ncov.png"/>
-
+     
 </head>
 <body>
-    
+<div>
+    <audio id="audioplayer" src="ghencov.mp3" type="audio/mpeg" loop="loop"> </audio>
+    <script>
+        $(document).ready(function() {
+        $("#audioplayer").get(0).play();
+        });
+    </script>
+</div>
 <!-- header section starts  -->
 
 <header>
 
-     <a href="#" class="logo" style="font-size:28px;"><!--<img src="cov3.gif" style="width:6%">-->C<i class="fas fa-virus" style="color: red;font-size: 30px;"></i></span>vid-19 TP.Vũng Tàu</a> 
+     <a href="#" class="logo" style="font-size:35px;"><!--<img src="cov3.gif" style="width:6%">-->C<i class="fas fa-virus" style="color: red;"></i></span>vid-19 TP.Vũng Tàu</a> 
 
     <div id="menu" class="fas fa-bars"></div>
 
@@ -32,15 +40,17 @@
             <li><a href="#prevent">Prevent</a></li>
             <li><a href="#handwash">Handwash</a></li>
             <li><a href="#spread">Spread</a></li>
+            
         </ul>
     </nav>
 
 </header>
-<audio autoplay="autoplay" hidden="hidden"><source src="ghencov.mp3" type="audio/mpeg"> </audio> 
+ 
+
 <!-- header section ends -->
 
 <!-- home section starts  -->
-    
+
 
 <section class="home" id="home">
 
@@ -54,7 +64,7 @@
     </div>
 
     <div class="image">
-        <img src="./images/home-img.png" alt="">
+        <img src="../cov19vt/images/home-img.png" alt="">
     </div>
 
 </section>
@@ -68,21 +78,21 @@
     <div class="box-container">
 
         <div class="box">
-            <img src="./images/protect-1.png" alt="">
+            <img src="../cov19vt/images/protect-1.png" alt="">
             <h3>Wear A Face Mask</h3>
             <p></p>
             <!-- <a href="#" class="btn">Learn more</a> -->
         </div>
 
         <div class="box">
-            <img src="./images/protect-2.png" alt="">
+            <img src="../cov19vt/images/protect-2.png" alt="">
             <h3>Wash Your Hands</h3>
             <p></p>
             <!-- <a href="#" class="btn">Learn more</a> -->
         </div>
 
         <div class="box">
-            <img src="./images/protect-3.png" alt="">
+            <img src="../cov19vt/images/protect-3.png" alt="">
             <h3>Avoid Close Contact</h3>
             <p></p>
             <!-- <a href="#" class="btn">Learn more</a> -->
@@ -115,7 +125,7 @@
     </div>
 
     <div class="image">
-        <img src="./images/symptoms-img.png" alt="">
+        <img src="../cov19vt/images/symptoms-img.png" alt="">
     </div>
 
 </section>
@@ -129,7 +139,7 @@
     <div class="row">
 
         <div class="image">
-            <img src="./images/dont-img.png" alt="">
+            <img src="../cov19vt/images/dont-img.png" alt="">
         </div>
 
         <div class="content">
@@ -157,7 +167,7 @@
         </div>
 
         <div class="image">
-            <img src="./images/do-img.png" alt="">
+            <img src="../cov19vt/images/do-img.png" alt="">
         </div>
 
     </div>
@@ -180,37 +190,37 @@
 
         <div class="box">
             <span>1</span>
-            <img src="./images/hadnwash-1.png" alt="">
+            <img src="../cov19vt/images/hadnwash-1.png" alt="">
             <h3>Apply Soap on Hand</h3>
         </div>
 
         <div class="box">
             <span>2</span>
-            <img src="./images/hadnwash-2.png" alt="">
+            <img src="../cov19vt/images/hadnwash-2.png" alt="">
             <h3>Palm to Palm</h3>
         </div>
 
         <div class="box">
             <span>3</span>
-            <img src="./images/hadnwash-3.png" alt="">
+            <img src="../cov19vt/images/hadnwash-3.png" alt="">
             <h3>Between Fingers</h3>
         </div>
 
         <div class="box">
             <span>4</span>
-            <img src="./images/hadnwash-4.png" alt="">
+            <img src="../cov19vt/images/hadnwash-4.png" alt="">
             <h3>Back of The Hands</h3>
         </div>
 
         <div class="box">
             <span>5</span>
-            <img src="./images/hadnwash-5.png" alt="">
+            <img src="../cov19vt/images/hadnwash-5.png" alt="">
             <h3>Clean with water</h3>
         </div>
 
         <div class="box">
             <span>6</span>
-            <img src="./images/hadnwash-6.png" alt="">
+            <img src="../cov19vt/images/hadnwash-6.png" alt="">
             <h3>Use Towel to Dry</h3>
         </div>
 
@@ -293,11 +303,11 @@ function checkTime(i) {
    
     <br>
     <br>
-    <h3 style="font-size: 14px; margin: auto; font-family: RobotoLight">
+    <h3 style="font-size: 17px; margin: auto; font-family: RobotoLight">
     
     </h3>
-
-      
+        
+   
 
     
 </section>
@@ -317,7 +327,7 @@ function checkTime(i) {
 
         <div class="box">
             <h3>Locations</h3>
-            <a href="#" style="font-family: Roboto; font-size: 16px;">TP.Vũng Tàu</a>
+            <a href="#" style="font-family: Roboto;">TP.Vũng Tàu</a>
         </div>
 
         <div class="box">
@@ -355,7 +365,7 @@ function checkTime(i) {
 <!-- scroll top  -->
 
 <a href="#home" class="scroll-top">
-    <img src="./images/scroll-img.png" alt="">
+    <img src="../cov19vt/images/scroll-img.png" alt="">
 </a>
 
 
@@ -376,7 +386,7 @@ function checkTime(i) {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 <!-- custom js file link  -->
-<script src="script.js"></script>
+<script src="../cov19vt/script.js"></script>
 
 
 </body>
