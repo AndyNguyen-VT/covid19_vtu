@@ -563,17 +563,13 @@ table {
     font-size: 17px;
   }
   
-  td {
+  td, th {
     border: 2px solid #dddddd;
     text-align: center;
     font-family: Sofia;
     padding: 10px;
   }
-  th{
-    border: 2px solid #dddddd;
-    background-color: rgb(255, 0, 0);
-    text-align: center;
-    padding: 10px;
+  
   }
   tr:nth-child(even) {
     background-color: #dddddd;
