@@ -574,12 +574,12 @@ table {
   td {
     border: 1px solid #dddddd;
     text-align: center;
-    padding: 15px;
+    padding: 22px;
   }
   th{
     border: 1px solid #dddddd;
     text-align: center;
-    padding: 8px;
+    padding: 7px;
     background-color: red;
   }
   
