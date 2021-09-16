@@ -565,11 +565,11 @@ header .navbar ul li a:hover{
 table {
     font-family: Sofia;
     border-collapse: collapse;
-    width: 70%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
-    font-size: 17px;
+    font-size: 15px;
   }
   
   td {
