@@ -574,15 +574,15 @@ table {
   td {
     border: 1px solid #dddddd;
     text-align: center;
-    padding: auto;
-    text-align: center;
+    padding: 20px;
+   
   }
   th{
     border: 1px solid #dddddd;
     text-align: center;
-    padding: auto;
+    padding: 20px;
     background-color: red;
-    text-align: center;
+    
   }
   
   tr:nth-child(even) {
